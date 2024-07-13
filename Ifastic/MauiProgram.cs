@@ -14,6 +14,7 @@ namespace Ifastic
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 });
 
+            builder.Services.AddAntDesign();
             builder.Services.AddMauiBlazorWebView();
 
 #if DEBUG
